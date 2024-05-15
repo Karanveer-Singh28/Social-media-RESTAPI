@@ -1,0 +1,31 @@
+
+Users REST API
+* Retrieve all users
+    GET/users
+
+* Create new User
+    POST/users
+
+* Retrieve one User
+    GET/users/{id}
+
+* Delete a user
+    DELETE/users/{id}
+
+
+*Posts REST API
+    *Retrieve all posts for a user
+        GET/users/{id}/posts
+
+    * Create a post for a user
+        POST/users/{id}/posts
+
+    * Retrieve details of a post
+        GET/users/{id}/posts/{post_id}
+
+
+Details-
+User: id, name, birthdate
+Post: id, description
+
+
